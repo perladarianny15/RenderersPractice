@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RendererPractice.Views.ToSpeakPage">
+    <ScrollView>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+            <Entry Text="{Binding Text}" Placeholder="Enter a text"/>
+            <Button HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    BackgroundColor="black" TextColor="white"
+                    Text="Speak"
+                    Command="{Binding ToSpeak}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:RendererPractice.Effects"
+    x:Class="RendererPractice.Views.EffectPage">
+    <ScrollView>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Entry Placeholder="Effects">
+                <Entry.Effects>
+                    <local:EntryEffects></local:EntryEffects>
+                </Entry.Effects>
+            </Entry>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
